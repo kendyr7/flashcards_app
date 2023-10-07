@@ -12,7 +12,7 @@
     </a>
     {% for card in card_list %}
         {% ifchanged %}
-            <h3>🗃 {{ card.box | ordinal }} Box</h3>
+            <h3>📦 {{ card.box | ordinal }} Box</h3>
         {% endifchanged %}
         {% include "cards/card.html" %}
     {% endfor %}
